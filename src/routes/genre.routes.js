@@ -1,5 +1,5 @@
 import { Router } from "express";
-// import { games } from "../data.js"; COMENTARIO PARA TESTAR SE CONTINUA FUNCIOANDO
+import { games } from "../data.js";
 import { filterByGenre } from "../utils/filterByGenre.js";
 
 const genreRoute = Router();
