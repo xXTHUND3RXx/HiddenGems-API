@@ -6,7 +6,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/90590_Deaths_Door.jpg?width=250",
     developer: "Acid Nerve",
     publisher: "Devolver Digital",
-    platforms: "Mobile, Nintendo Switch, PC, PlayStation 4, Playstation 5, Xbox One, Xbox Series X/S",
+    platforms: ["Mobile", "Nintendo Switch", "PC", "PlayStation 4", "Playstation 5", "Xbox One", "Xbox Series X/S"],
     release_date: "July 20th, 2021"
   },
   {
@@ -16,7 +16,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/62941_Hades.jpg?width=250",
     developer: "Supergiant Games",
     publisher: "Supergiant Games",
-    platforms: "Nintendo Switch, PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
     release_date: "September 17th, 2020"
   },
   {
@@ -26,7 +26,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/62047_Blasphemous.jpg?width=250",
     developer: "The Game Kitchen",
     publisher: "Team17",
-    platforms: "Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "September 10th, 2019"
   },
   {
@@ -36,7 +36,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/45727_Dead_Cells.jpg?width=250",
     developer: "Motion Twin",
     publisher: "Motion Twin",
-    platforms: "Mobile, Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Mobile", "Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "August 7th, 2018"
   },
   {
@@ -46,7 +46,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/115577_Dave_the_Diver.jpg?width=250",
     developer: "MINTROCKET",
     publisher: "MINTROCKET",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "June 28th, 2023"
   },
   {
@@ -56,7 +56,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/80205_Shadows_of_Doubt.jpg?width=250",
     developer: "ColePowered Games",
     publisher: "Fireshine Games",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "April 24th, 2023"
   },
   {
@@ -66,7 +66,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/33020_Katana_ZERO.jpg?width=250",
     developer: "Askiisoft",
     publisher: "Devolver Digital",
-    platforms: "Nintendo Switch, PC, Xbox One",
+    platforms: ["Nintendo Switch", "PC", "Xbox One"],
     release_date: "April 18th, 2019"
   },
   {
@@ -76,7 +76,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/7359_Project_Zomboid.jpg?width=250",
     developer: "The Indie Stone",
     publisher: "The Indie Stone",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "November 8th, 2013"
   },
   {
@@ -86,7 +86,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/89898_Gas_Station_Simulator.jpg?width=250",
     developer: "Drago Entertainment",
     publisher: "Movie Games S.A.",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "September 15th, 2021"
   },
   {
@@ -96,7 +96,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/89791_Stay_Out_of_the_House.jpg?width=250",
     developer: "Puppet Combo",
     publisher: "Puppet Combo",
-    platforms: "PC, Xbox Series X/S",
+    platforms: ["PC", "Xbox Series X/S"],
     release_date: "October 14th, 2022"
   },
   {
@@ -106,7 +106,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/57066_Horizon_Chase_Turbo.jpg?width=250",
     developer: "Aquiris Game Studio",
     publisher: "Aquiris Game Studio",
-    platforms: "Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "May 15th, 2018"
   },
   {
@@ -116,7 +116,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/143378_Brain_Show.jpg?width=250",
     developer: "Simplicity Games",
     publisher: "Simplicity Games",
-    platforms: "Linux, Mac, PC",
+    platforms: ["Linux", "Mac", "PC"],
     release_date: "June 7th, 2023"
   },
   {
@@ -126,7 +126,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/90078_The_Mortuary_Assistant.jpg?width=250",
     developer: "DarkStone Digital",
     publisher: "DreadXP",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "August 2nd, 2022"
   },
   {
@@ -136,7 +136,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/6916_Papers_Please.jpg?width=250",
     developer: "Lucas Pope",
     publisher: "3909 LLC",
-    platforms: "iOS, PC, PlayStation Vita",
+    platforms: ["iOS", "PC", "PlayStation Vita"],
     release_date: "August 8th, 2013"
   },
   {
@@ -146,7 +146,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/73803_Unrailed.jpg?width=250",
     developer: "Indoor Astronaut",
     publisher: "Daedalic Entertainment, bilibili",
-    platforms: "Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "September 9th, 2019"
   },
   {
@@ -156,7 +156,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/22757_Ori_and_the_Blind_Forest.jpg?width=250",
     developer: "Moon Studios",
     publisher: "Microsoft Studios",
-    platforms: "Nintendo Switch, PC, Xbox One",
+    platforms: ["Nintendo Switch", "PC", "Xbox One"],
     release_date: "March 11th, 2015"
   },
   {
@@ -166,7 +166,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/38014_Slime_Rancher.jpg?width=250",
     developer: "Monomi Park",
     publisher: "Monomi Park",
-    platforms: "Linux, Mac, PC, PlayStation 4, Xbox One",
+    platforms: ["Linux", "Mac", "PC", "PlayStation 4", "Xbox One"],
     release_date: "August 1st, 2017"
   },
   {
@@ -176,7 +176,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/73351_Spiritfarer.jpg?width=250",
     developer: "Thunder Lotus Games",
     publisher: "Thunder Lotus Games",
-    platforms: "Nintendo Switch, PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
     release_date: "August 18th, 2020"
   },
   {
@@ -186,7 +186,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/87916_Intruder.jpg?width=250",
     developer: "Superboss Games",
     publisher: "Superboss Games",
-    platforms: "PC",
+    platforms: ["PC"],
     release_date: "March 1st, 2019"
   },
   {
@@ -196,7 +196,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/17484_The_Long_Dark.jpg?width=250",
     developer: "Hinterland Studio Inc.",
     publisher: "Hinterland Studio Inc.",
-    platforms: "Linux, Mac, Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Linux", "Mac", "Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "August 1st, 2017"
   },
   {
@@ -206,7 +206,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/70977_Muse_Dash.jpg?width=250",
     developer: "PeroPeroGames",
     publisher: "XD Network",
-    platforms: "Android, iOS, Nintendo Switch, PC",
+    platforms: ["Android", "iOS", "Nintendo Switch", "PC"],
     release_date: "June 15th, 2018"
   },
   {
@@ -216,7 +216,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/24005_Firewatch.jpg?width=250",
     developer: "Campo Santo",
     publisher: "Panic Inc.",
-    platforms: "Linux, Mac, Nintendo Switch, PC, PlayStation 4, Xbox One",
+    platforms: ["Linux", "Mac", "Nintendo Switch", "PC", "PlayStation 4", "Xbox One"],
     release_date: "February 9th, 2016"
   },
   {
@@ -226,7 +226,7 @@ export const games = [
     image: "https://howlongtobeat.com/games/102816_Sea_of_Stars.jpg?width=250",
     developer: "Sabotage Studio",
     publisher: "Sabotage Studio",
-    platforms: "Nintendo Switch, PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    platforms: ["Nintendo Switch", "PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
     release_date: "August 29th, 2023"
   }
-]
+];
