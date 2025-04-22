@@ -1,21 +1,22 @@
-import express from 'express';
-import gameRoute from './routes/game.routes.js';
-import genreRoute from './routes/genre.routes.js';
-import nameRoute from './routes/name.routes.js';
-import platformRoute from './routes/plataforms.routes.js';
+import express from "express";
+import gameRoute from "./routes/game.routes.js";
+import genreRoute from "./routes/genre.routes.js";
+import nameRoute from "./routes/name.routes.js";
+import platformRoute from "./routes/plataforms.routes.js";
 
 const app = express();
 const PORT = 3000;
 
 // Rota principal, mostra todos os jogos listados no data.js
-app.use('/', gameRoute);
+app.use("/", gameRoute);
 
 // Rota dos nomes, mostra o nome de todos os jogos
-app.use('/name', nameRoute);
+app.use("/names", nameRoute);
 
 // Rota dos generos, mostra os genêros de todos os jogos
-app.use('/genre', genreRoute);
+app.use("/genres", genreRoute);
 
-app.use('/platforms', platformRoute)
+// Rotas das plataformas, mostra as plataformas de todos os jogos
+app.use("/platforms", platformRoute)
 
 app.listen(PORT, ()=> console.log(`Servidor rodando na porta ${PORT}`));

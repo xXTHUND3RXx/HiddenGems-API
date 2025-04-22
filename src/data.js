@@ -102,7 +102,7 @@ export const games = [
   {
     id: 11,
     name: "Horizon Chase Turbo",
-    genres: ["Racing"],
+    genres: ["Racing", "Arcade"],
     image: "https://howlongtobeat.com/games/57066_Horizon_Chase_Turbo.jpg?width=250",
     developer: "Aquiris Game Studio",
     publisher: "Aquiris Game Studio",
@@ -112,7 +112,7 @@ export const games = [
   {
     id: 12,
     name: "Brain Show: Party Game",
-    genres: ["Trivia"],
+    genres: ["Trivia", "Party game"],
     image: "https://howlongtobeat.com/games/143378_Brain_Show.jpg?width=250",
     developer: "Simplicity Games",
     publisher: "Simplicity Games",
