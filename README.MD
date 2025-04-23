@@ -33,7 +33,7 @@ Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos dese
 
 ### 🔗 Buscar os jogos pelo nome
 
-> `/games/names/sea%20of%20stars`
+> /games/names/sea%20of%20stars
 
 ### 📄 Resposta
 ```json
@@ -61,11 +61,12 @@ Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos dese
 			"release_date": "August 29th, 2023"
 		}
 	]
+}
 ```
 
 ### 🔗 Buscar os jogos pelo gênero
 
-> `games/genres/horror`
+> /games/genres/horror
 
 ### 📄 Resposta
 ```json
@@ -108,7 +109,7 @@ Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos dese
 
 ### 🔗 Buscar os jogos pela plataforma
 
-> `/games/platforms/mobile`
+> /games/platforms/mobile
 
 ### 📄 Resposta
 
