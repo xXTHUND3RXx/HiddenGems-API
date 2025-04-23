@@ -9,7 +9,7 @@ export function filterByProperty(property, nameProperty){
         const prop = obj[property];
         
         if (Array.isArray(prop)) {
-            prop.some((p) => p.toLowerCase().startsWith(capitalizedGenre.toLowerCase()));
+            return prop.some((p) => p.toLowerCase().startsWith(capitalizedGenre.toLowerCase()));
         } else if (typeof prop === 'string') {
             return prop.toLowerCase().startsWith(capitalizedGenre.toLowerCase());
         }

@@ -4,12 +4,14 @@ import { filterByProperty } from "../utils/filterByProperty.js";
 
 const nameRoute = Router();
 
+// Lista todos os nomes de jogos disponiveis 
 nameRoute.get('/', (req, res) => {
     const uniqueName = extractUniqueValues("name")
 
     res.status(200).send({ names: uniqueName })
 })
 
+// Permite procurar os jogos pelo nome ou pelas letras iniciais
 nameRoute.get('/:name', (req, res) => {
     // Pega o nome digitado no parâmetro
     const {name} = req.params;
