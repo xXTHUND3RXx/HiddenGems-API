@@ -20,7 +20,7 @@ nameRoute.get('/:name', (req, res) => {
 
     // Verifica se o array está vazio, e se ele estiver vazio envia uma mensagem de erro
     if(gameName.length === 0) {
-        return res.status(404).send({ message: 'Esse jogo ainda não existe no nosso banco de dados :)' })
+        return res.status(501).send({ message: 'Esse jogo ainda não existe no nosso banco de dados :)' })
     }
 
     res.status(200).send({ gameName })
