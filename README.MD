@@ -2,10 +2,21 @@
 
 Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos desenvolvidos por empresas pequenas, pequenas equipes ou até mesmo por uma pessoa.
 
+## 🔴 Problematização
+
+A indústria de jogos anda crescendo cada vez mais atualmente, todo ano milhares e milhares de cópias são vendidas, e consequentemente isso acaba promovendo o crescimento de empresas já veteranas no mercado. E porque isso acaba só beneficiando empresas com anos de mercado? Isso é muito simples, os jogos que vendem milhares e milhares de cópias, geralmente são de empresas grandes, porque elas tem o capital necessário para investir em jogos com altos orçamentos e no marketing para proporcionar ao público a divulgação do seu jogo. Contudo, jogos desenvolvido por empresas pequenas (também conhecido como jogos indies) ou feitos por pouco desenvolvedores, acabam não tendo esse privilégio. 
+
+## ✅ Solução
+
+Foi pensando nisso que venho apresenta a HiddenGems API. Ela é um catálogo de jogos indies com o propósito de mostrar jogos desconhecidos de diversos gêneros ao público.
+
+## 🔧 Elaboração
+
+O projeto foi desenvolvido com as seguintes tecnologias: Node JS, ES Modules, Express e Nodemon. O servidor foi desenvolvido utilizando Node JS. O Express para criação do servidor e das rotas. ES Modules para modularização do código, e o Nodemon para executar o servidor.
+
 ## 🛠️ Tecnologias utilizadas 
 
 - Node JS
-- ES Modules
 - Express
 - Nodemon
 
@@ -17,17 +28,48 @@ Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos dese
 - Buscar os jogos pela plataforma que ele está disponível
 - Permite procurar um jogo pelo nome, gênero ou plataforma, **apenas digitando suas iniciais**
 
+## 🚀 Como rodar o projeto localmente
+
+### 🧰 Pré-requisitos
+- Node JS
+- (Opcional) Postman ou outra ferramenta de testes de API
+
+### 💻 Instalação
+
+#### 1. Clone o repositório
+
+```bash
+git clone https://github.com/xXTHUND3RXx/HiddenGems-API.git
+```
+
+#### 2. Navegue até a pasta do projeto
+
+```bash
+cd HiddenGems-API
+```
+
+#### 3. Instale as dependências
+```bash
+npm install
+```
+
+#### 4. Inicie o servidor
+```bash
+npm run dev
+```
+
+
 ## 🧭 Endpoints
 
-| Método | Rota                        | Descrição                              |
-|--------|-----------------------------|----------------------------------------|
-| GET    | `/games`                    | Lista todos os jogos indies            |
-| GET    | `/games/names`              | Lista os nomes de todos os jogos       |
-| GET    | `/games/names/:name`        | Busca os jogos pelo nome               |
-| GET    | `/games/genres`             | Lista os gêneros de todos os jogos     |
-| GET    | `games/genres/:genre`       | Busca os jogos pelo gênero             |
-| GET    | `games/platforms`           | Lista as plataformas de todos os jogos |
-| GET    | `games/platforms/:platform` | Busca os jogos pela plataforma         |
+| Método | Rota                        | Descrição                                 |
+|--------|-----------------------------|-------------------------------------------|
+| GET    | `/games`                    | Lista todos os jogos indies               |
+| GET    | `/games/names`              | Lista os nomes de todos os jogos          |
+| GET    | `/games/names/:name`        | Busca os jogos pelo nome ou suas iniciais |
+| GET    | `/games/genres`             | Lista os gêneros de todos os jogos        |
+| GET    | `games/genres/:genre`       | Busca os jogos pelo gênero                |
+| GET    | `games/platforms`           | Lista as plataformas de todos os jogos    |
+| GET    | `games/platforms/:platform` | Busca os jogos pela plataforma            |
 
 ## 🔍 Exemplos de requições
 
@@ -71,7 +113,7 @@ Essa API foi desenvolvida com o objetivo de dar mais visibilidade aos jogos dese
 ### 📄 Resposta
 ```json
 {
-	"gameByGenres": [
+	"Genres": [
 		{
 			"id": 10,
 			"name": "Stay Out of the House",

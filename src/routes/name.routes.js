@@ -11,7 +11,6 @@ nameRoute.get('/', (req, res) => {
     res.status(200).send({ names: uniqueName })
 })
 
-// Permite procurar os jogos pelo nome ou pelas letras iniciais
 nameRoute.get('/:name', (req, res) => {
     // Pega o nome digitado no parâmetro
     const {name} = req.params;
