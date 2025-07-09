@@ -1,4 +1,5 @@
 import express from "express";
+import cors from 'cors';
 import gameRoute from "./routes/game.routes.js";
 import genreRoute from "./routes/genre.routes.js";
 import nameRoute from "./routes/name.routes.js";
@@ -6,6 +7,8 @@ import platformRoute from "./routes/platforms.routes.js";
 
 const app = express();
 const PORT = 3000;
+
+app.use(cors()); 
 
 // Rota principal, mostra todos os jogos listados no data.js
 app.use("/games", gameRoute);
